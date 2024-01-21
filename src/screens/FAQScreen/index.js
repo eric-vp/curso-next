@@ -11,6 +11,9 @@ export default function FAQScreen({ faq }) {
                 backgroundColor: theme.colors.neutral["050"]
             }}
         >
+            <Head>
+                <title>FAQ - Alura Cases Campanha</title>
+            </Head>
             <Box
                 as="main"
                 styleSheet={{
