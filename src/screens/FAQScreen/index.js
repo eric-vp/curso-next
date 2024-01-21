@@ -3,6 +3,7 @@ import Footer from '../../components/patterns/Footer';
 import Link from 'next/link';
 import { theme } from '../../theme/theme';
 import { Box, Text } from '../../theme/components';
+import Head from 'next/head';
 
 export default function FAQScreen({ faq }) {
     return (
